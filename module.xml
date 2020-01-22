@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Export generator="Cache" version="25">
-  <Document name="objectscript-package-template.ZPM">
+  <Document name="objectscript-package-example.ZPM">
     <Module>
-      <Name>objectscript-package-template</Name>
+      <Name>objectscript-package-example</Name>
       <Version>1.0.3</Version>
       <Packaging>module</Packaging>
       <SourcesRoot>src</SourcesRoot>
       <Resource Name="community.objectscript.PKG"/>
-      <Resource Name="community.objectscript.macroexample.INC"/>
-      <Resource Name="community.objectscript.MacExample.MAC"/>
       <Resource Name="community.objectscript.settings.GBL"/>
       <SystemSetting Name="CSP.DefaultFileCharset" Value="UTF-8"/>
       <Invokes>
