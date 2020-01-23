@@ -16,7 +16,7 @@ or-and
 
 
 ## Naming convention
-Each folder under /cls corresponds to Class package.
+Each folder under /src corresponds to application package.
 first folder/package is the organisatoin or developer name.
 second level is the project name
 third is class or sub-package
@@ -54,9 +54,9 @@ Install [VSCode](https://code.visualstudio.com/) and [ObjectScript](https://mark
 Open /src/cls/PackageSample/ObjectScript.cls class and try to make changes - it will be compiled in running IRIS docker container.
 
 Feel free to delete PackageSample folder and place your ObjectScript classes in a form
-/src/cls/Package/Classname.cls
+/src/Package/Classname.cls
 
-The script in Installer.cls will import everything you place under /src/cls into IRIS.
+The script in Installer.cls will import everything you place under /src and globals in /gbl into IRIS.
 
 ## What's insde the repo
 
