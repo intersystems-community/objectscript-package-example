@@ -3,7 +3,7 @@
   <Document name="objectscript-package-example.ZPM">
     <Module>
       <Name>objectscript-package-example</Name>
-      <Version>1.0.3</Version>
+      <Version>1.0.0</Version>
       <Packaging>module</Packaging>
       <SourcesRoot>src</SourcesRoot>
       <Resource Name="community.objectscript.PKG"/>
