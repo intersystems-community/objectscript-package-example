@@ -4,13 +4,15 @@ This is a template for InterSystems ObjectScript class package which is planned 
 
 ## repo structure
 1. put ObjectScript classes under /src folder in form
-/cls - classes
-/inc - includes
-/mac - mac routines
-/int - int routines
-/gbl - globals
+/package_name/class_name.cls
+or-and
+/package_name/mac_routine.mac
+or-and
+/package_name/int_routine.int
+or-and
+/package_name/include_file.inc
 
-2. Place module.xml file in the root of the repo. Learn more about [module.xml format](https://community.intersystems.com/post/anatomy-zpm-module-packaging-your-intersystems-solution)
+2. Put module.xml file in the root of the repo. Learn more about [module.xml format](https://community.intersystems.com/post/anatomy-zpm-module-packaging-your-intersystems-solution)
 
 
 ## Naming convention
