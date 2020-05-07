@@ -11,7 +11,7 @@ ClassMethod Test() As %Status
     return "It works!"
 }
 
-ClassMethod FortyTwo() As %Status
+ClassMethod FortyTwo() As %Integer
 {
     return 42
 }

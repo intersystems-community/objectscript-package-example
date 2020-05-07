@@ -6,7 +6,7 @@ Property Test As %String(MAXLEN = 10);
 ClassMethod CreateRecord() As %Status
 {
     s objPC=..%New()
-    s objPC.Test="Test string string string"
+    s objPC.Test="Test string"
     #; some comment
     return objPC.%Save()
 }
