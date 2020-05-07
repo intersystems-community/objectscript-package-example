@@ -1,12 +1,12 @@
 Class community.objectscript.PersistentClass Extends %Persistent
 {
 
-Property Test As %String(MAXLEN = 10);
+Property Test As %String(MAXLEN = 12);
 
 ClassMethod CreateRecord() As %Status
 {
     s objPC=..%New()
-    s objPC.Test="Test string"
+    s objPC.Test="Test very long string"
     #; some comment
     return objPC.%Save()
 }
