@@ -11,6 +11,11 @@ ClassMethod Test() As %Status
     return "It works!"
 }
 
+ClassMethod FortyTwo() As %Status
+{
+    return 42
+}
+
 ClassMethod Version() As %String
 {
     return $$$IRISVersion
@@ -34,6 +39,7 @@ ClassMethod SetToTheGlobal(int As %Integer, str As %String) As %Status
     set @(..#Global)@("string")=$g(str)
     set @(..#Global)@("today")=$zdate($H,2)
     set @(..#Global)@("IRIS Version")=$ZVersion
+    return $$$OK
 }
 
 }
