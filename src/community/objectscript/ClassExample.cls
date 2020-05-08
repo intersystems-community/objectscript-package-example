@@ -29,6 +29,7 @@ ClassMethod Namespace() As %String
 ClassMethod OutputGlobal() As %Status
 {
     zw @(..#Global)
+    Return $$$OK
 }
 
 ClassMethod SetToTheGlobal(int As %Integer, str As %String) As %Status
