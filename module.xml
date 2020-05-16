@@ -8,7 +8,7 @@
       <SourcesRoot>src</SourcesRoot>
       <Resource Name="community.objectscript.PKG"/>
       <Resource Name="community.objectscript.settings.GBL"/>
-      <UnitTest Name="src" Package="UnitTests" Phase="test"/>
+      <UnitTest Name="/src" Package="UnitTests" Phase="test"/>
       <Invokes>
         <Invoke Class="community.objectscript.PersistentClass" Method="CreateRecord"></Invoke>
         <Invoke Class="community.objectscript.ClassExample" Method="SetToTheGlobal">
@@ -19,12 +19,12 @@
       <CSPApplication
         Url="/hello"
         SourcePath="/src/csp"
-        DeployPath="{$cspdir}/hello"
+        DeployPath="${cspdir}hello"
         ServeFiles="1"
         Recurse="1"
         CookiePath="/hello"
         UseCookies="2"
-        MatchRoles=":{$dbrole}"
+        MatchRoles=":${dbrole}"
         PasswordAuthEnabled="1"
         UnauthenticatedEnabled="0"
        />
@@ -33,8 +33,8 @@
         Url="/rest-test"
         SourcePath="/src/csp"
         Recurse="1"
-        DeployPath="{$cspdir}/rest-test" 
-        MatchRoles=":{$dbrole}"
+        DeployPath="${cspdir}rest-test" 
+        MatchRoles=":${dbrole}"
         PasswordAuthEnabled="1"
         UnauthenticatedEnabled="0"
         DispatchClass="community.objectscript.RESTExample"
