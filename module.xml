@@ -8,7 +8,7 @@
       <Packaging>module</Packaging>
       <SourcesRoot>src</SourcesRoot>
       <Resource Name="community.objectscript.PKG"/>
-      <Resource Name="community.objectscript.settings.GBL"/>
+      <Resource Name="community.objectscript.settings.GBL" Directory="gbl"/>
       <UnitTest Name="/src" Package="UnitTests" Phase="test"/>
       <Invokes>
         <Invoke Class="community.objectscript.PersistentClass" Method="CreateRecord"></Invoke>
