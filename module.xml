@@ -3,7 +3,7 @@
   <Document name="objectscript-package-example.ZPM">
     <Module>
       <Name>objectscript-package-example</Name>
-      <Version>1.0.1</Version>
+      <Version>1.0.2</Version>
       <Description>ObjectScript Package example with simplified folder structure</Description>
       <Packaging>module</Packaging>
       <SourcesRoot>src</SourcesRoot>
